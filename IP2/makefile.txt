@@ -1,0 +1,25 @@
+# Compiler settings
+CXX = g++
+CXXFLAGS = -Wall -Wextra -std=c++11
+
+all: module demo test
+
+module: stack.cpp stack.h
+	$(CXX) $(CXXFLAGS) -c stack.cpp -o stack.o
+
+demo: demo.cpp module
+	$(CXX) $(CXXFLAGS) demo.cpp stack.o -o demo
+
+run_demo: demo
+	./demo
+
+test: test.cpp module
+	$(CXX) $(CXXFLAGS) test.cpp stack.o -o test
+
+run_test: test
+	./test
+
+clean:
+	rm -f *.o demo test log.txt
+
+rebuild: clean all

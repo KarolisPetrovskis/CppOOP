@@ -1,0 +1,72 @@
+TEST #1: Push/Peek [PASSED]
+  -> Expected: 20
+  -> Actual:   20
+
+TEST #2: Search Middle Element [PASSED]
+  -> Expected: 1
+  -> Actual:   1
+
+TEST #3: toString Format [PASSED]
+  -> Expected: 3 10 1 2 3
+  -> Actual:   3 10 1 2 3
+
+TEST #4: Update Top (*=) [PASSED]
+  -> Expected: 100
+  -> Actual:   100
+
+TEST #5: Equality Operator [PASSED]
+  -> Expected: true
+  -> Actual:   true
+
+TEST #6: Inequality Operator [PASSED]
+  -> Expected: true
+  -> Actual:   true
+
+TEST #7: Size-based Comparison (<) [PASSED]
+  -> Expected: true
+  -> Actual:   true
+
+TEST #8: Index Search Alias ([]) [PASSED]
+  -> Expected: 0
+  -> Actual:   0
+
+TEST #9: Compound Addition (+=) [PASSED]
+  -> Expected: 20
+  -> Actual:   20
+
+TEST #10: Multi-Pop Result (-=) [PASSED]
+  -> Expected: 10
+  -> Actual:   10
+
+TEST #11: Assignment Independence [PASSED]
+  -> Expected: 1 10 5
+  -> Actual:   1 10 5
+
+TEST #12: Copy Constructor Match [PASSED]
+  -> Expected: 1 10 7
+  -> Actual:   1 10 7
+
+TEST #13: Clear Operator (!) [PASSED]
+  -> Expected: 0 10 
+  -> Actual:   0 10 
+
+TEST #14: Underflow Exception Handling [PASSED]
+  -> Expected: true
+  -> Actual:   true
+
+TEST #15: Empty Peek Out of Range [PASSED]
+  -> Expected: true
+  -> Actual:   true
+
+TEST #16: Update Top Exception [PASSED]
+  -> Expected: true
+  -> Actual:   true
+
+
+============================================================
+TEST RUN COMPLETE
+Total Tests: 16
+Passed:      16
+Failed:      0
+All tests passed successfully.
+============================================================
